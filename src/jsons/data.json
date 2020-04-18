@@ -1,0 +1,80 @@
+[
+    {
+        "title": "Total Return",
+        "xAxisValues": [
+            "SI",
+            "1 year",
+            "3 year"
+        ],
+        "yAxisSeries": [
+            {
+                "name": "KO",
+                "data": [
+                    18,
+                    14.3,
+                    -10.6
+                ]
+            },
+            {
+                "name": "Exchange Place LP",
+                "data": [
+                    16.1,
+                    13.1,
+                    13.6
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Volatility",
+        "xAxisValues": [
+            "SI",
+            "1 year",
+            "3 year"
+        ],
+        "yAxisSeries": [
+            {
+                "name": "KO",
+                "data": [
+                    17.4,
+                    41.8,
+                    46.7
+                ]
+            },
+            {
+                "name": "Exchange Place LP",
+                "data": [
+                    12.5,
+                    47.9,
+                    70.1
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Max DrawDown",
+        "xAxisValues": [
+            "SI",
+            "1 year",
+            "3 year"
+        ],
+        "yAxisSeries": [
+            {
+                "name": "KO",
+                "data": [
+                    17.4,
+                    41.8,
+                    46.7
+                ]
+            },
+            {
+                "name": "Exchange Place LP",
+                "data": [
+                    12.5,
+                    47.9,
+                    70.1
+                ]
+            }
+        ]
+    }
+]
