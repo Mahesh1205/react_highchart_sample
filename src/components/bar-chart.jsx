@@ -14,7 +14,7 @@ export default class BarChart extends React.Component {
         const config = {
             chart: {
                 type: 'column',
-                renderTo: `mychart${chartConfig.index}`
+                renderTo: `chart${chartConfig.index}`
             },
             credits: false,
             title: {
@@ -42,16 +42,16 @@ export default class BarChart extends React.Component {
     createSingleChart(chartConfig, index) {
         chartConfig.index = index
         const config = this.getChartConfig(chartConfig);
-        return (<div id={ `chart-${index}` }>
-              <HighchartsReact options={config} highcharts={Highcharts}></HighchartsReact>
-              <hr size="5"></hr>
-           </div>)
+        return (<div className={'char-container'} id={ `chart-${index}` }>
+                 <HighchartsReact options={config} highcharts={Highcharts}></HighchartsReact>
+                  <hr size={5}></hr>
+                </div>)
     }
 
 
 
     render() {
-        return <div id='chart_container'>
+        return <div id='main-container'>
             {
            chartData && chartData.map((value, index) => {
                 return this.createSingleChart(value, index)
